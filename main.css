@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    /* Семейство шрифтов */
+    font-size: 11pt;
+    /* Размер основного шрифта в пунктах  */
+    background-color: #f0f0f0;
+    /* Цвет фона веб-страницы */
+    color: #333;
+    /* Цвет основного текста */
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h3 {
+    color: #a52a2a;
+    /* Цвет заголовка */
+    font-size: 24pt;
+    /* Размер шрифта в пунктах */
+    font-family: Georgia, Times, serif;
+    /* Семейство шрифтов */
+    font-weight: normal;
+    /* Нормальное начертание текста  */
+}
+
+h4 {
+    color: #a52a2a;
+    /* Цвет заголовка */
+    font-size: 16pt;
+    /* Размер шрифта в пунктах */
+    font-family: Georgia, Times, serif;
+    /* Семейство шрифтов */
+    font-weight: normal;
+    /* Нормальное начертание текста  */
+}
+
+
+
+
+p {
+    text-align: justify;
+    /* Выравнивание по ширине */
+    margin-left: 60px;
+    /* Отступ слева в пикселах */
+    margin-right: 10px;
+    /* Отступ справа в пикселах */
+    border-left: 1px solid #999;
+    /* Параметры линии слева */
+    border-bottom: 1px solid #999;
+    /* Параметры линии снизу */
+    padding-left: 10px;
+    /* Отступ от линии слева до текста  */
+    padding-bottom: 10px;
+    /* Отступ от линии снизу до текста  */
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hr {
+    border-width: 3px;
+    border: solid blue;
+    border-radius: 2px;
+}
+
+div {
+    border: 3px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+button {
+    /*background-color: #4CAF50;*/
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
+}
